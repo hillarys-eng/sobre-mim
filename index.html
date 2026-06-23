@@ -1,121 +1,102 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio - SENAI</title>
+    <title>Portifolio-hillary</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap"
-        rel="stylesheet">
-</head>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
 
 <body>
-
     <header>
-        <div class="logo">Hillary </div>
+        <p>Hillary</p>
         <nav>
             <ul>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#projects">Projetos</a></li>
-                <li><a href="#contact">Contatos</a></li>
+                <li><a href="sobremim.html">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contatos">Contatos</a></li>
             </ul>
         </nav>
     </header>
-
-    <main>
-        <section id="about" class="hero">
-            <div class="hero-content">
-                <span class="subtitle">Estudante SENAI</span>
-                <h1>Olá, meu nome é Hillary</h1>
-                <p>Sou Hillary, maquiadora profissional há 3 anos. Iniciei minha trajetória compartilhando conteúdos sobre maquiagem, beleza e autocuidado nas redes sociais,
-                 conquistando um público engajado e apaixonado pelo universo da beleza.Ao longo dessa jornada, realizei parcerias com diversas marcas para divulgação de produtos e criação de conteúdo autêntico.
-                 Além dos trabalhos como criadora de conteúdo, compartilho dicas de maquiagem, tendências de beleza, moda e estilo de vida, inspirando meus seguidores diariamente.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">Projetos</a>
-                    <a href="https://linkedin.com" target="_blank" class="btn btn-secondary">LinkedIn</a>
-                </div>
+    <section>
+        <div class="info">
+           
+            <h1>Olá</h1>
+            <p class="description">Sou Hillary, maquiadora profissional há 3 anos. Iniciei minha trajetória compartilhando conteúdos
+                    sobre maquiagem, beleza e autocuidado nas redes sociais,
+                    conquistando um público engajado e apaixonado pelo universo da beleza.Ao longo dessa jornada,
+                    realizei parcerias com diversas marcas para divulgação de produtos e criação de conteúdo autêntico.
+                    Além dos trabalhos como criadora de conteúdo, compartilho dicas de maquiagem, tendências de beleza,
+                    moda e estilo de vida, inspirando meus seguidores diariamente.</p>
+            <div>
+                <button class="btn-project"><a href="#projetos">Projetos</a></button>
+                <button class="btn-ghost"><a href="https://br.linkedin.com/">linkedin</a></button>
             </div>
-            <div class="hero-image">
-                <img src="img/image (2).png" alt="Hillary">
-                <div class="blob-wrapper">
-
-
-                </div>
-            </div>
-        </section>
-
-        <section id="projects" class="projects-section">
-            <h2 class="section-title">Projetos</h2>
-
-            <div class="projects-container">
-                <article class="project-card">
-                    <div class="card-text">
-                        <h3>Maquiagem para Noivas</h3>
-                        <p>Maquiagem personalizada e duradoura para o dia do "sim",
-                         com foco em técnicas de visagismo e fotografia para um visual atemporal.</p>
-                        <a href="#" class="btn-card">Saiba mais</a>
-                    </div>
-                    <div class="card-image">
-                        <img src="img/casamento.png" alt="Imagem Projeto 1">
-                    </div>
-                </article>
-
-                <article class="project-card card-reverse">
-                    <div class="card-image">
-                        <img src="img/produçãodeeventos.png" alt="Imagem Projeto 2">
-                    </div>
-                    <div class="card-text">
-                        <h3>Produções para Eventos</h3>
-                        <p>Looks personalizados e sofisticados para festas, 
-                        formaturas e ocasiões especiais, focando na durabilidade e elegância.</p>
-                        <a href="#" class="btn-card">Saiba mais</a>
-                    </div>
-                </article>
-
-                <article class="project-card">
-                    <div class="card-text">
-                        <h3>Beleza para Ensaios Fotográficos</h3>
-                        <p>Looks de beleza concebidos e atemporais projetados especificamente para a câmera, otimizando a luz e a textura.</p>
-                        <a href="#" class="btn-card"> Saiba mais </a>
-                    </div>
-                    <div class="card-image">
-                        <img src="img/maquiagemfoto.png" alt="Imagem Projeto 3">
-                    </div>
-                </article>
-            </div>
-        </section>
-    </main>
-      <form action="">
-        <fieldset>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome">
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email">
-
-            <label for="mensagem">mensagem:</label>
-            <input type="text" id="mensagem" name="mensagem">
-
-            <input type="submit">
-
-        </fieldset>
-    <footer id="contact">
-        <div class="social-links">
-            <a href="#" aria-label="Instagram"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
-                    alt="Instagram" width="24"></a>
-            <a href="#" aria-label="LinkedIn"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
-                    alt="LinkedIn" width="24"></a>
-            <a href="#" aria-label="E-mail"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"
-                    alt="E-mail" width="24"></a>
         </div>
-             
-          <p>hillary 2026</p>
-    </footer>
+        <div><img class="img-header" src="image(2).png" alt=""></div>
+    </section>
+    <main id="projetos">
+        <h2>Projetos</h2>
+        <article>
+            <div class="info-projeto">
 
+
+                <h2> Maquiagem para Noivas</h2>
+                <p>PMaquiagem personalizada e duradoura para o dia do "sim",
+                com foco em técnicas de visagismo e fotografia para um visual atemporal.</p>
+                <a class="btn-ghost" >veja mais</a>
+            </div>
+            <div><img src="img/casamento.png" alt=""></div>
+        </article>
+        <article>
+
+            <div class="info-projeto">
+                <h3>Produções para Evento</h3>
+                <p>Looks personalizados e sofisticados para festas,
+                formaturas e ocasiões especiais, focando na durabilidade e elegância.</p>
+                <a class="btn-ghost"> veja mais</a>
+            </div>
+            <div><img src="img/produçãodeeventos.png" alt=""></div>
+        </article>
+        <article>
+            <div class="info-projeto">
+                <h3>Beleza para Ensaios Fotográficos </h3>
+                <p>Looks de beleza concebidos e atemporais projetados especificamente para a câmera, otimizando
+                a luz e a textura.</p>
+                <a class="btn-ghost"> veja mais</a>
+            </div>
+            <div><img src="img/maquiagemfoto.png" alt=""></div>
+        </article>
+    </main>
+
+    <section id="contatos">
+        <h2>Contato</h2>
+        <form action="">
+            <fieldset>
+
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome">
+
+                <label for="Email">Email</label>
+                <input type="email" name="email" id="email">
+
+                <label for="mensagem">mensagem</label>
+                <input type="text" name="mensagem" id="mensagem">
+            </fieldset>
+        </form>
+        <footer>
+            <div>
+                <img src="img/bi_linkedin.png" alt="">
+                <img src="img/bi_envelope-fill.png" alt="">
+                <img src="img/ph_instagram-logo-fill (1).png" alt="">
+            </div>
+            <p>Hillary 2026</p>
+        </footer>
+    </section>
 </body>
 
 </html>
